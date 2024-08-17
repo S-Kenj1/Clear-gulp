@@ -4,13 +4,32 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: 'noto sans';
+    font-family: 'Quicksand';
     font-weight: 400;
     &::before{
         font-family: 'icons';
     }
 }
-
 body{
-    background-color: #454545;
+    background-color: rgb(255, 243, 245);
 }
+:root{
+    --dark: #313131;
+    --black: #0c0c0c;
+    --white: #ffffff;
+    --gray: #ababab;
+    --gray-text: #bbbbbb;
+    --gray-bg: #eeeeee;
+    --blue: #37B5FE;
+    --blue-light: #d6e6fa;
+    --ellow-light: #f8f8e6;
+}
+$dark: var(--dark);
+$black: var(--black);
+$white: var(--white);
+$gray: var(--gray);
+$grayText: var(--gray-text);
+$grayBg: var(--gray-bg);
+$blue: var(--blue);
+$blueLight: var(--blue-light);
+$ellowLight: var(--ellow-light);
